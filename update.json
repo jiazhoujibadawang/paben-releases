@@ -1,8 +1,8 @@
 {
-    "versionCode":  13,
-    "versionName":  "5.3",
-    "url":  "https://github.com/jiazhoujibadawang/paben-releases/releases/download/v5.3/JA-v5.3.apk",
-    "sha256":  "4BD6A69D2DADAD98514D3ED85428E9924F388BA6C920928285414D794AFA9896",
-    "notes":  "1. 设置页「实验性选项」组集中四项：并行下载 / E站爬取 / Pixiv 爬取 / 自定义背景（默认折叠）\n2. 去掉卡上重复的「实验性选项」胶囊，标题行更干净\n3. 版本号 5.3（versionCode 13）",
+    "versionCode":  14,
+    "versionName":  "5.4",
+    "url":  "https://github.com/jiazhoujibadawang/paben-releases/releases/download/v5.4/JA-v5.4.apk",
+    "sha256":  "E94AD9059E51F3BAFB4ABDD3E83B917B66ECA03997D93D77532574B40A5386E8",
+    "notes":  "1. 修复检查更新误报「版本信息格式不对」（清单 CRLF 解析 bug）\n2. 更新源增至 7 个镜像，逐个自动尝试，失败会显示真实原因（HTTP 码/响应体开头）\n3. 设置页「实验性选项」组集中四项（默认折叠）\n4. 版本 5.4（versionCode 14）",
     "force":  false
 }
