@@ -1,8 +1,8 @@
 {
-    "versionCode":  17,
-    "versionName":  "5.6",
-    "url":  "https://github.com/jiazhoujibadawang/paben-releases/releases/download/v5.6/JA-v5.6.apk",
-    "sha256":  "4E2546EE29DCC22727B2E3DE1FE6FC90585783F6855B092145EC4896ECD0CA57",
-    "notes":  "1. 大幅提速：全库索引改为缓存（第二次进入≈0ms），不再每次重建、不再卡主线程\n2. 多章本子秒开第一章：不再长时间「正在准备章节…」；加载框可取消、快路径不弹框\n3. 未下载的多章本子也能立刻进第一章，后台预取后续章节\n4. 搜索流式显示：搜到一条出一条，状态行显示「已找到 N 个（JM x · E站 y）」\n5. 详情页/本子管理打开更快（消除 O(N²) 目录扫描）\n6. 版本 5.6（versionCode 17）",
+    "versionCode":  19,
+    "versionName":  "5.6.1",
+    "url":  "https://github.com/jiazhoujibadawang/paben-releases/releases/download/v5.6.1/JA-v5.6.1.apk",
+    "sha256":  "2234E06D3B9222A1B8B9FB50CCB4DFD933BA8FCC52B64C9BD85EB984389CA16F",
+    "notes":  "最新版（含全部修复）：\n1. 索引缓存化：打开详情/阅读器不再卡 2~3 秒\n2. 多章本子秒开第一章，未下载也能立刻开，后台预取后续章节\n3. 搜索流式显示：搜到一条出一条\n4. 阅读器长按：收藏/查看详情/删除\n5. 跨章连续阅读：滑到底自动进下一章\n6. 更新进度条 + 通知栏进度\n7. 版本 5.6.1（versionCode 19，可由 5.2 直接升级、数据保留）",
     "force":  false
 }
