@@ -1,8 +1,8 @@
 {
-    "versionCode":  14,
-    "versionName":  "5.4",
-    "url":  "https://github.com/jiazhoujibadawang/paben-releases/releases/download/v5.4/JA-v5.4.apk",
-    "sha256":  "E94AD9059E51F3BAFB4ABDD3E83B917B66ECA03997D93D77532574B40A5386E8",
-    "notes":  "1. 修复检查更新误报「版本信息格式不对」（清单 CRLF 解析 bug）\n2. 更新源增至 7 个镜像，逐个自动尝试，失败会显示真实原因（HTTP 码/响应体开头）\n3. 设置页「实验性选项」组集中四项（默认折叠）\n4. 版本 5.4（versionCode 14）",
+    "versionCode":  15,
+    "versionName":  "5.5",
+    "url":  "https://github.com/jiazhoujibadawang/paben-releases/releases/download/v5.5/JA-v5.5.apk",
+    "sha256":  "D55888F8FF6939DAA7F520B7D656B388E4EA11E40B181DAEBF685BEFECF7F626",
+    "notes":  "1. 跨章连续阅读：多章本子第一次读直接进第一章（不再弹选择）\n2. 当章滑到最底部自动切下一章，无缝衔接（分页模式：最后一页继续翻也切章）\n3. 章首向上滑可回到上一章末尾\n4. 最后一章/下一章未下载 有明确提示；进度按新章记录\n5. 更新检查已修复（上一版），多镜像源自动重试\n6. 版本 5.5（versionCode 15）",
     "force":  false
 }
