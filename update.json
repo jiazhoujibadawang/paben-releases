@@ -1,8 +1,8 @@
 {
-    "versionCode":  19,
-    "versionName":  "5.6.1",
-    "url":  "https://github.com/jiazhoujibadawang/paben-releases/releases/download/v5.6.1/JA-v5.6.1.apk",
-    "sha256":  "2234E06D3B9222A1B8B9FB50CCB4DFD933BA8FCC52B64C9BD85EB984389CA16F",
-    "notes":  "最新版（含全部修复）：\n1. 索引缓存化：打开详情/阅读器不再卡 2~3 秒\n2. 多章本子秒开第一章，未下载也能立刻开，后台预取后续章节\n3. 搜索流式显示：搜到一条出一条\n4. 阅读器长按：收藏/查看详情/删除\n5. 跨章连续阅读：滑到底自动进下一章\n6. 更新进度条 + 通知栏进度\n7. 版本 5.6.1（versionCode 19，可由 5.2 直接升级、数据保留）",
+    "versionCode":  20,
+    "versionName":  "5.7",
+    "url":  "https://github.com/jiazhoujibadawang/paben-releases/releases/download/v5.7/JA-v5.7.apk",
+    "sha256":  "491BFCCD6CBA19FEB2B2A1F9A6E24FDF676B46E3BC6AC3A4615A40D10AE6546C",
+    "notes":  "1. E站详情重做：改走官方 API 一次拿全标签（不再截断）/页数/大小/评分/上传者/时间/分类\n2. E站缩略图修复：sprite 雪碧图按格裁剪，6 并发 + 磁盘缓存 + Referer/Cookie，点开即可看到预览\n3. JM 搜索封面加速：直接用缩略图 URL、8 路并发预取、内存+磁盘缓存（二次搜索几乎瞬时）\n4. 崩溃日志：持续落盘（512KB×3）+ 崩溃瞬间同步写摘要，重启后可一键发送；发送分段（≤3000字节）不再整体失败，失败自动重试\n5. 更新进度只在汉堡菜单显示（设置页不再逐点刷新「已下载XXX」）\n6. 后台/锁屏继续下载：WakeLock + WifiLock + 前台服务保活，下载页提供电池优化引导\n7. 版本 5.7（versionCode 20）",
     "force":  false
 }
