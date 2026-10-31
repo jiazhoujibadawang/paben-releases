@@ -1,8 +1,1 @@
-{
-    "versionCode":  20,
-    "versionName":  "5.7",
-    "url":  "https://github.com/jiazhoujibadawang/paben-releases/releases/download/v5.7/JA-v5.7.apk",
-    "sha256":  "491BFCCD6CBA19FEB2B2A1F9A6E24FDF676B46E3BC6AC3A4615A40D10AE6546C",
-    "notes":  "1. E站详情重做：改走官方 API 一次拿全标签（不再截断）/页数/大小/评分/上传者/时间/分类\n2. E站缩略图修复：sprite 雪碧图按格裁剪，6 并发 + 磁盘缓存 + Referer/Cookie，点开即可看到预览\n3. JM 搜索封面加速：直接用缩略图 URL、8 路并发预取、内存+磁盘缓存（二次搜索几乎瞬时）\n4. 崩溃日志：持续落盘（512KB×3）+ 崩溃瞬间同步写摘要，重启后可一键发送；发送分段（≤3000字节）不再整体失败，失败自动重试\n5. 更新进度只在汉堡菜单显示（设置页不再逐点刷新「已下载XXX」）\n6. 后台/锁屏继续下载：WakeLock + WifiLock + 前台服务保活，下载页提供电池优化引导\n7. 版本 5.7（versionCode 20）",
-    "force":  false
-}
+{"versionCode":21,"versionName":"5.7.1","url":"https://github.com/jiazhoujibadawang/paben-releases/releases/download/v5.7.1/JA-v5.7.1.apk","sha256":"81870b202efe8acd5a80149e494b01b1b1f24c0dc67a54b820e5107ad2153b4f","notes":"1. E站预览修复：绿块根因是占位图本身为 1x1 纯绿 PNG；且站点 sprite 是 webp、Pillow 无 webp 支持 → 改用 Android BitmapFactory 解码后按格裁剪，失败再逐格回退图片页取原图（真实出图）\n2. E站详情离线优先：本地缓存（7 天；已下载本子永久）立即渲染，后台静默刷新，失败保留本地；失败格显示「第 N 张 加载失败」并可点此重试\n3. 下载进度串台修复：进度钩子此前每次 run() 重复包装导致旧闭包继续累加（出现 37/26）→ 改为全进程只装一次；分母=总页数、分子=有效落盘页，统一快照 + clamp；多章显示「第 k/N 章」\n4. 版本 5.7.1（versionCode 21）","force":false}
