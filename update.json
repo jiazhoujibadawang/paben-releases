@@ -1,1 +1,16 @@
-{"versionCode":48,"versionName":"1.0.12","url":"https://github.com/jiazhoujibadawang/paben-releases/releases/download/v1.0.12/JAFetcher-1.0.12.apk","sha256":"1f16cc3f386f3d14892301900c824b237149d0b93de7b0b0fac8d21a0f446e9f","notes":"JAFetcher 1.0.12：\n1. 主页顶部改为：继续阅读卡 → 快捷行（随机宠幸/重置阅读进度）\n2. 其后依次：搜索 → 开始下载 → 摧毁 → 站点负载 → 在线推荐 → 下载进度\n3. 版本 1.0.12（versionCode 48）","force":false}
+{
+  "versionCode": 48,
+  "versionName": "1.0.12",
+  "url": "https://github.com/jiazhoujibadawang/paben-releases/releases/download/v1.0.12/JAFetcher-1.0.12.apk",
+  "sha256": "1f16cc3f386f3d14892301900c824b237149d0b93de7b0b0fac8d21a0f446e9f",
+  "notes": "JAFetcher 1.0.12（稳定版）：主页顶部为继续阅读卡 + 随机宠幸/重置进度；搜索 → 开始下载 → 摧毁 → 站点负载 → 推荐 → 下载进度。",
+  "force": false,
+  "beta": {
+    "versionCode": 49,
+    "versionName": "1.1.0 Beta",
+    "url": "https://github.com/jiazhoujibadawang/paben-releases/releases/download/v1.1.0-beta/JAFetcher-1.1.0-Beta.apk",
+    "sha256": "8acedd3043cee1059a4664f19235cc344e8ba3560beca3c6ae0e677c3a6e8a26",
+    "minVersionCode": 48,
+    "notes": "大家好，这里是 JAZHOU，在这个体验版中，我们更新了\n- 优化了 E站详情页，现在你可以看中文标签了!\n- 为全站增加了血腥警告\n- 为全站增加了评分功能\n- 优化了主页排版\n- 修复了一些问题\n此外，我们已经发现了下载多章节本子会出现逻辑混乱的问题，将在正式版发布时修复\n仅供体验，测试不代表最终成果\n灌注 JAZHOU 喵♡~"
+  }
+}
