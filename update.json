@@ -1,8 +1,8 @@
 {
-  "versionCode": 64,
-  "versionName": "1.2.1",
-  "url": "https://github.com/jiazhoujibadawang/paben-releases/releases/download/v1.2.1/JAFetcher-1.2.1.apk",
-  "sha256": "731c91b1c4b5df099b1ee432c6b54daa6b7632a02f721cb50646548615e07cec",
-  "notes": "JAFetcher 1.2.1\n- 详情页新增「黄色圆形 i」标识：标签含扶他 / 兽人时，标题右侧显示（黄色圆底 + 黑色 i）\n- 搜索卡封面的黄色 i 增加标签回退判定：即使后端没算 info，只要条目带标签也能显示\n- 识别词：futanari / futa / 扶他 / 双性；furry / kemono / 兽人 / 兽化 / 福瑞\n- 其余与 1.2.0 相同\n\n提示：不想装这一版可点「跳过此版本」。",
+  "versionCode": 65,
+  "versionName": "1.2.2",
+  "url": "https://github.com/jiazhoujibadawang/paben-releases/releases/download/v1.2.2/JAFetcher-1.2.2.apk",
+  "sha256": "d695aea60de4c86e7a8a1870c797b4aaee7640193c46a8339a3448d5521b5be4",
+  "notes": "JAFetcher 1.2.2\n- 详情页「浏览量 / 收藏 / 页数」下面新增**黄色圆角提示条**：左边深色圆形「i」，右边加粗「含扶他内容」/「含兽人内容」\n- 与红色「此本子有血腥猎奇画面」同一套排版（圆角 8dp、上下 8dp、左右 10dp、12sp）\n- 只在标签命中时显示，两条可同时出现（血腥在上、黄色在下）\n- 标题右侧的小黄圆 i 保留\n- 其余与 1.2.1 相同\n\n提示：不想装这一版可点「跳过此版本」。",
   "force": false
 }
