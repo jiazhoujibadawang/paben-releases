@@ -1,8 +1,8 @@
 {
-  "versionCode": 58,
-  "versionName": "1.1.4",
-  "url": "https://github.com/jiazhoujibadawang/paben-releases/releases/download/v1.1.4/JAFetcher-1.1.4.apk",
-  "sha256": "2b18c19af9573b55ad62496825e3fc129972b400f348528ab655c73501824f98",
-  "notes": "JAFetcher 1.1.4\n- E站标签显示中文：标签芯片变为「tag（中文）」，例如 artist:hoge（作者名）\n- 点击标签仍用英文原词搜索（中文只用于显示，不影响搜索命中）\n- 中文来自内置映射表（约 4000 条），站点自带翻译优先\n- 没有收录的标签保持英文显示，不会变成空/乱码\n- 其余与 1.1.3 相同",
+  "versionCode": 59,
+  "versionName": "1.1.5",
+  "url": "https://github.com/jiazhoujibadawang/paben-releases/releases/download/v1.1.5/JAFetcher-1.1.5.apk",
+  "sha256": "9b5966c4637cd1b720ce0aa6ac916ef32f7e21764a7554bde4a6449165279fb2",
+  "notes": "JAFetcher 1.1.5\n- JM 访问提速：请求超时统一 10 秒（无代理时也生效），坏域名快速跳过\n- 重试次数 3 → 1：不再在同一域名上反复耗时间\n- 搜索结果加 2 分钟内存缓存：返回上一步、重复搜索同一关键词时秒开（0 网络）\n- 搜索耗时写入日志（[jm] 搜索 'xx' 第1页耗时）\n- 其余与 1.1.4 相同",
   "force": false
 }
