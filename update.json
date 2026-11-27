@@ -6,11 +6,11 @@
   "notes": "JAFetcher 1.0.12（稳定版）：主页顶部为继续阅读卡 + 随机宠幸/重置进度；搜索 → 开始下载 → 摧毁 → 站点负载 → 推荐 → 下载进度。",
   "force": false,
   "beta": {
-    "versionCode": 50,
-    "versionName": "1.1.1 Beta",
-    "url": "https://github.com/jiazhoujibadawang/paben-releases/releases/download/v1.1.1-beta/JAFetcher-1.1.1-Beta.apk",
-    "sha256": "0e2c89f5bd6e68ec3372e507ce8df48ed60c1d850122a0450d0d0b3700515c6e",
+    "versionCode": 51,
+    "versionName": "1.1.2 Beta",
+    "url": "https://github.com/jiazhoujibadawang/paben-releases/releases/download/v1.1.2-beta/JAFetcher-1.1.2-Beta.apk",
+    "sha256": "ff06382c43348b7e054066f412d733dbebae4cc3f43a597a964895eccef85d95",
     "minVersionCode": 48,
-    "notes": "1.1.1 Beta（筛选修复）\n- 类别筛选补全：Artist CG / Asian Porn / Movie，并做归一化比较（Non-H 与 non-h、Image Set 与 ImageSet 都能匹配）\n- 不再因为本地筛选后条目变少而把筛选芯片误置灰「该站不支持」\n- 放宽筛选时即使列表已被筛空也会自动重新拉取\n- 筛到空时给出提示：筛选后没有结果 · 可放宽筛选\n- 其余内容与 1.1.0 Beta 相同"
+    "notes": "1.1.2 Beta（PDF 移除 / 原图保留）\n- 删除「PDF 输出」功能：设置页不再有 PDF 开关与 PDF 命名，下载链路与 Python 侧双重短路，永不生成 PDF\n- 「删除原图」永久关闭并从设置页移除：任何情况下都不再删除原图（原有 PDF/图片文件不受影响，仍可正常阅读）\n- 兼容老数据：以前勾过 PDF/删除原图的用户，升级后这两个值会被自动拉回 false\n- 其余内容与 1.1.1 Beta 相同"
   }
 }
