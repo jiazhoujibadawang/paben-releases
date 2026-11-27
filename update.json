@@ -1,8 +1,8 @@
 {
-  "versionCode": 54,
-  "versionName": "1.1.0",
-  "url": "https://github.com/jiazhoujibadawang/paben-releases/releases/download/v1.1.0/JAFetcher-1.1.0.apk",
-  "sha256": "59bfe0c79304927be41e5452cf9bbd7f76ad6aee366d1a4ee211dea44b649f09",
-  "notes": "JAFetcher 1.1.0 正式版\n- E站搜索结果封面显示作品类型（MISC / Doujinshi / GAME CG / Artist CG / Non-H…），并修复类别的解析兼容性\n- P站「显示 R-18 内容」默认开启并保持\n- 右下角悬浮按钮放大到 64dp\n- 删除 PDF 输出功能；「删除原图」永久关闭\n- 修复 E站筛选偶尔不可用（类别补全 + 归一化 + 放宽自动重拉）\n- 免代理直连 E站、中文标签、血腥警告、全站评分、网络层优化、主页排版与公告\n- 主页继续阅读卡\"先闪一本\"修复",
+  "versionCode": 55,
+  "versionName": "1.1.1",
+  "url": "https://github.com/jiazhoujibadawang/paben-releases/releases/download/v1.1.1/JAFetcher-1.1.1.apk",
+  "sha256": "cb3d0892ec2c8824bf09f9c26b409209f41681737aeda4e79325a0495de9291e",
+  "notes": "JAFetcher 1.1.1\n- E站类别筛选改为「站点端筛选」（f_cats 位掩码）：选 Cosplay 后整页都是 Cosplay，不再出现\"筛完只剩 1 条\"\n- E站语言筛选同样交给站点（language: 标签），不再依赖返回字段\n- 类别/语言筛选芯片因此永不再显示\"该站不支持\"\n- 顺带补强类别解析：兼容新版页面结构，角标正常显示\n- 其余与 1.1.0 正式版相同",
   "force": false
 }
