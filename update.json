@@ -6,11 +6,11 @@
   "notes": "JAFetcher 1.0.12（稳定版）：主页顶部为继续阅读卡 + 随机宠幸/重置进度；搜索 → 开始下载 → 摧毁 → 站点负载 → 推荐 → 下载进度。",
   "force": false,
   "beta": {
-    "versionCode": 49,
-    "versionName": "1.1.0 Beta",
-    "url": "https://github.com/jiazhoujibadawang/paben-releases/releases/download/v1.1.0-beta/JAFetcher-1.1.0-Beta.apk",
-    "sha256": "a9db5f5e385ef1d63878bf5c20debc10a72c29f6d379721e656ecaa179d3562c",
+    "versionCode": 50,
+    "versionName": "1.1.1 Beta",
+    "url": "https://github.com/jiazhoujibadawang/paben-releases/releases/download/v1.1.1-beta/JAFetcher-1.1.1-Beta.apk",
+    "sha256": "0e2c89f5bd6e68ec3372e507ce8df48ed60c1d850122a0450d0d0b3700515c6e",
     "minVersionCode": 48,
-    "notes": "大家好，这里是 JAZHOU，在这个体验版中，我们更新了\n- 优化了 E站详情页，现在你可以看中文标签了!\n- 为全站增加了血腥警告\n- 为全站增加了评分功能\n- 优化了主页排版\n- 修复了一些问题\n此外，我们已经发现了下载多章节本子会出现逻辑混乱的问题，将在正式版发布时修复\n仅供体验，测试不代表最终成果\n灌注 JAZHOU 喵♡~"
+    "notes": "1.1.1 Beta（筛选修复）\n- 类别筛选补全：Artist CG / Asian Porn / Movie，并做归一化比较（Non-H 与 non-h、Image Set 与 ImageSet 都能匹配）\n- 不再因为本地筛选后条目变少而把筛选芯片误置灰「该站不支持」\n- 放宽筛选时即使列表已被筛空也会自动重新拉取\n- 筛到空时给出提示：筛选后没有结果 · 可放宽筛选\n- 其余内容与 1.1.0 Beta 相同"
   }
 }
