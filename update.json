@@ -1,8 +1,8 @@
 {
-  "versionCode": 57,
-  "versionName": "1.1.3",
-  "url": "https://github.com/jiazhoujibadawang/paben-releases/releases/download/v1.1.3/JAFetcher-1.1.3.apk",
-  "sha256": "b9ea377150c7d2bf3c7aa322165089b15a84abcb58fb99df66ebb0ffe50e5708",
-  "notes": "JAFetcher 1.1.3\n- E站评分卡的表情改为「苹果风格」：内置 7 张 Apple 风格 emoji 图片直接渲染（系统字体换不出苹果样式）\n- 表情尺寸 30dp，与文字评价、大号分数对齐\n- 其余与 1.1.2 相同",
+  "versionCode": 58,
+  "versionName": "1.1.4",
+  "url": "https://github.com/jiazhoujibadawang/paben-releases/releases/download/v1.1.4/JAFetcher-1.1.4.apk",
+  "sha256": "2b18c19af9573b55ad62496825e3fc129972b400f348528ab655c73501824f98",
+  "notes": "JAFetcher 1.1.4\n- E站标签显示中文：标签芯片变为「tag（中文）」，例如 artist:hoge（作者名）\n- 点击标签仍用英文原词搜索（中文只用于显示，不影响搜索命中）\n- 中文来自内置映射表（约 4000 条），站点自带翻译优先\n- 没有收录的标签保持英文显示，不会变成空/乱码\n- 其余与 1.1.3 相同",
   "force": false
 }
