@@ -1,8 +1,8 @@
 {
-  "versionCode": 63,
-  "versionName": "1.2.0",
-  "url": "https://github.com/jiazhoujibadawang/paben-releases/releases/download/v1.2.0/JAFetcher-1.2.0.apk",
-  "sha256": "7f591b685461ec6b5d4c1a2787fe72a3235c311bbdec55f4e61cea99ad8c04cd",
-  "notes": "JAFetcher 1.2.0 正式版\n- 全局 UI 风格更新：卡片间距 14dp、标题 15sp、数字 28sp、卡片 1dp 轻投影（仍无边框）\n- 「开始下载」按钮字号 18sp 加粗、高度 52dp\n- 主页底部版本标注修正（不再重复 Beta）\n- E站标签显示中文（内置约 4000 条映射，点击仍用英文搜索）\n- E站筛选：「语言」改为「评分」（不限/≥3.0/≥3.5/≥4.0/≥4.5），每页批量补评分\n- E站类别筛选改为站点端 f_cats，结果不再被本地筛剩一条\n- 猎奇判定扩充（vore/torture/decapitation 等）；扶他/兽人显示黄色圆形 i\n- JM 访问提速：超时 10s、重试 1 次、搜索 2 分钟内存缓存\n- 前几版内容：免代理直连 E站、中文标签、血腥警告、评分、网络层优化、悬浮按钮等\n\n提示：不想装这一版可以点「跳过此版本」，之后不会再提示这一版（手动检查更新仍能看到）。",
+  "versionCode": 64,
+  "versionName": "1.2.1",
+  "url": "https://github.com/jiazhoujibadawang/paben-releases/releases/download/v1.2.1/JAFetcher-1.2.1.apk",
+  "sha256": "731c91b1c4b5df099b1ee432c6b54daa6b7632a02f721cb50646548615e07cec",
+  "notes": "JAFetcher 1.2.1\n- 详情页新增「黄色圆形 i」标识：标签含扶他 / 兽人时，标题右侧显示（黄色圆底 + 黑色 i）\n- 搜索卡封面的黄色 i 增加标签回退判定：即使后端没算 info，只要条目带标签也能显示\n- 识别词：futanari / futa / 扶他 / 双性；furry / kemono / 兽人 / 兽化 / 福瑞\n- 其余与 1.2.0 相同\n\n提示：不想装这一版可点「跳过此版本」。",
   "force": false
 }
