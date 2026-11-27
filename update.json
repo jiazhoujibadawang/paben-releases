@@ -1,8 +1,8 @@
 {
-  "versionCode": 55,
-  "versionName": "1.1.1",
-  "url": "https://github.com/jiazhoujibadawang/paben-releases/releases/download/v1.1.1/JAFetcher-1.1.1.apk",
-  "sha256": "cb3d0892ec2c8824bf09f9c26b409209f41681737aeda4e79325a0495de9291e",
-  "notes": "JAFetcher 1.1.1\n- E站类别筛选改为「站点端筛选」（f_cats 位掩码）：选 Cosplay 后整页都是 Cosplay，不再出现\"筛完只剩 1 条\"\n- E站语言筛选同样交给站点（language: 标签），不再依赖返回字段\n- 类别/语言筛选芯片因此永不再显示\"该站不支持\"\n- 顺带补强类别解析：兼容新版页面结构，角标正常显示\n- 其余与 1.1.0 正式版相同",
+  "versionCode": 56,
+  "versionName": "1.1.2",
+  "url": "https://github.com/jiazhoujibadawang/paben-releases/releases/download/v1.1.2/JAFetcher-1.1.2.apk",
+  "sha256": "42c9dab45a5a4bdc7720c0a173695eb4a7a5c12a9072019660a83cc47e2885c9",
+  "notes": "JAFetcher 1.1.2\n- E站筛选行：「语言」换成「评分」（不限 / ≥3.0 / ≥3.5 / ≥4.0 / ≥4.5）\n- 每页结果会用一次批量接口补全评分（最多 25 条，失败不影响列表）\n- 评分未知的条目不拦截（不会因为没取到分数就把结果全藏掉）\n- 评分选择会记住（跨页面保存）\n- 其余与 1.1.1 相同",
   "force": false
 }
