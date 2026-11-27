@@ -6,11 +6,11 @@
   "notes": "JAFetcher 1.0.12（稳定版）：主页顶部为继续阅读卡 + 随机宠幸/重置进度；搜索 → 开始下载 → 摧毁 → 站点负载 → 推荐 → 下载进度。",
   "force": false,
   "beta": {
-    "versionCode": 52,
-    "versionName": "1.1.3 Beta",
-    "url": "https://github.com/jiazhoujibadawang/paben-releases/releases/download/v1.1.3-beta/JAFetcher-1.1.3-Beta.apk",
-    "sha256": "d9dea54abfe6e5c5b089933a0861d2d6a09f1298d9f8654335cd7f1d2a6d566a",
+    "versionCode": 53,
+    "versionName": "1.1.4 Beta",
+    "url": "https://github.com/jiazhoujibadawang/paben-releases/releases/download/v1.1.4-beta/JAFetcher-1.1.4-Beta.apk",
+    "sha256": "e4bc3729c2cd0583d778d6f2f2dcacc59e3a087d510b45fe061f07fbfa4f6e60",
     "minVersionCode": 48,
-    "notes": "1.1.3 Beta（悬浮按钮放大）\n- 右下角两个方形悬浮按钮 48×48dp → 64×64dp，图标 24dp → 30dp\n- 圆角 14dp → 20dp，两键间距 10dp → 12dp，距屏幕边缘 16dp → 18dp\n- 主页状态行右侧避让同步加宽，长文字不会从按钮下面穿过\n- 其余内容与 1.1.2 Beta 相同"
+    "notes": "1.1.4 Beta（P站 R-18 默认开启）\n- P站「显示 R-18 内容」改为默认开启，并给老用户强制开一次（之后仍可手动关闭）\n- 搜索页读取该开关的默认值同步改成开启；勾选「只看 R18」时自动开启它\n- 其余内容与 1.1.3 Beta 相同"
   }
 }
