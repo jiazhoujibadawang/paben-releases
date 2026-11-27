@@ -1,8 +1,8 @@
 {
-  "versionCode": 59,
-  "versionName": "1.1.5",
-  "url": "https://github.com/jiazhoujibadawang/paben-releases/releases/download/v1.1.5/JAFetcher-1.1.5.apk",
-  "sha256": "9b5966c4637cd1b720ce0aa6ac916ef32f7e21764a7554bde4a6449165279fb2",
-  "notes": "JAFetcher 1.1.5\n- JM 访问提速：请求超时统一 10 秒（无代理时也生效），坏域名快速跳过\n- 重试次数 3 → 1：不再在同一域名上反复耗时间\n- 搜索结果加 2 分钟内存缓存：返回上一步、重复搜索同一关键词时秒开（0 网络）\n- 搜索耗时写入日志（[jm] 搜索 'xx' 第1页耗时）\n- 其余与 1.1.4 相同",
+  "versionCode": 60,
+  "versionName": "1.1.6",
+  "url": "https://github.com/jiazhoujibadawang/paben-releases/releases/download/v1.1.6/JAFetcher-1.1.6.apk",
+  "sha256": "7b780d203fa447dc05ba75e2c911130c2e8d182a5e1b3db51c9cd5ab37526d6f",
+  "notes": "JAFetcher 1.1.6\n- 猎奇/血腥判定扩充：vore、amputation、decapitation、dismemberment、mutilation、torture、corpse、necro、necrophilia、snuff、cannibalism、body horror\n- 新增「黄色圆形 i」标识：命中扶他 / 兽人标签时，搜索卡封面右上角显示黄色圆形 i（只提示，不过滤）\n- E站搜索列表会顺带补全标签（来自一次批量接口），所以猎奇 ⚠ 与黄色 i 在列表里就能看到，不必点进详情\n- 其余与 1.1.5 相同",
   "force": false
 }
