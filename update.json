@@ -1,8 +1,8 @@
 {
-  "versionCode": 65,
-  "versionName": "1.2.2",
-  "url": "https://github.com/jiazhoujibadawang/paben-releases/releases/download/v1.2.2/JAFetcher-1.2.2.apk",
-  "sha256": "d695aea60de4c86e7a8a1870c797b4aaee7640193c46a8339a3448d5521b5be4",
-  "notes": "JAFetcher 1.2.2\n- 详情页「浏览量 / 收藏 / 页数」下面新增**黄色圆角提示条**：左边深色圆形「i」，右边加粗「含扶他内容」/「含兽人内容」\n- 与红色「此本子有血腥猎奇画面」同一套排版（圆角 8dp、上下 8dp、左右 10dp、12sp）\n- 只在标签命中时显示，两条可同时出现（血腥在上、黄色在下）\n- 标题右侧的小黄圆 i 保留\n- 其余与 1.2.1 相同\n\n提示：不想装这一版可点「跳过此版本」。",
+  "versionCode": 66,
+  "versionName": "1.2.3",
+  "url": "https://github.com/jiazhoujibadawang/paben-releases/releases/download/v1.2.3/JAFetcher-1.2.3.apk",
+  "sha256": "10bfd2b5829d4f0d6b93e0183513d250d066765033612fbd8e2dabd1c134702d",
+  "notes": "JAFetcher 1.2.3\n- 兽人（福瑞）识别新增关键词「毛茸茸」：命中时同样显示标题右侧小黄圆 i 与浏览量下方的黄色提示条\n- 识别词现为：furry / kemono / 兽人 / 兽化 / 福瑞 / 毛茸茸\n- 其余与 1.2.2 相同\n\n提示：不想装这一版可点「跳过此版本」。",
   "force": false
 }
