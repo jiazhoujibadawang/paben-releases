@@ -1,16 +1,8 @@
 {
-  "versionCode": 48,
-  "versionName": "1.0.12",
-  "url": "https://github.com/jiazhoujibadawang/paben-releases/releases/download/v1.0.12/JAFetcher-1.0.12.apk",
-  "sha256": "1f16cc3f386f3d14892301900c824b237149d0b93de7b0b0fac8d21a0f446e9f",
-  "notes": "JAFetcher 1.0.12（稳定版）：主页顶部为继续阅读卡 + 随机宠幸/重置进度；搜索 → 开始下载 → 摧毁 → 站点负载 → 推荐 → 下载进度。",
-  "force": false,
-  "beta": {
-    "versionCode": 53,
-    "versionName": "1.1.4 Beta",
-    "url": "https://github.com/jiazhoujibadawang/paben-releases/releases/download/v1.1.4-beta/JAFetcher-1.1.4-Beta.apk",
-    "sha256": "e4bc3729c2cd0583d778d6f2f2dcacc59e3a087d510b45fe061f07fbfa4f6e60",
-    "minVersionCode": 48,
-    "notes": "1.1.4 Beta（P站 R-18 默认开启）\n- P站「显示 R-18 内容」改为默认开启，并给老用户强制开一次（之后仍可手动关闭）\n- 搜索页读取该开关的默认值同步改成开启；勾选「只看 R18」时自动开启它\n- 其余内容与 1.1.3 Beta 相同"
-  }
+  "versionCode": 54,
+  "versionName": "1.1.0",
+  "url": "https://github.com/jiazhoujibadawang/paben-releases/releases/download/v1.1.0/JAFetcher-1.1.0.apk",
+  "sha256": "59bfe0c79304927be41e5452cf9bbd7f76ad6aee366d1a4ee211dea44b649f09",
+  "notes": "JAFetcher 1.1.0 正式版\n- E站搜索结果封面显示作品类型（MISC / Doujinshi / GAME CG / Artist CG / Non-H…），并修复类别的解析兼容性\n- P站「显示 R-18 内容」默认开启并保持\n- 右下角悬浮按钮放大到 64dp\n- 删除 PDF 输出功能；「删除原图」永久关闭\n- 修复 E站筛选偶尔不可用（类别补全 + 归一化 + 放宽自动重拉）\n- 免代理直连 E站、中文标签、血腥警告、全站评分、网络层优化、主页排版与公告\n- 主页继续阅读卡\"先闪一本\"修复",
+  "force": false
 }
