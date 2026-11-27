@@ -6,11 +6,11 @@
   "notes": "JAFetcher 1.0.12（稳定版）：主页顶部为继续阅读卡 + 随机宠幸/重置进度；搜索 → 开始下载 → 摧毁 → 站点负载 → 推荐 → 下载进度。",
   "force": false,
   "beta": {
-    "versionCode": 51,
-    "versionName": "1.1.2 Beta",
-    "url": "https://github.com/jiazhoujibadawang/paben-releases/releases/download/v1.1.2-beta/JAFetcher-1.1.2-Beta.apk",
-    "sha256": "ff06382c43348b7e054066f412d733dbebae4cc3f43a597a964895eccef85d95",
+    "versionCode": 52,
+    "versionName": "1.1.3 Beta",
+    "url": "https://github.com/jiazhoujibadawang/paben-releases/releases/download/v1.1.3-beta/JAFetcher-1.1.3-Beta.apk",
+    "sha256": "d9dea54abfe6e5c5b089933a0861d2d6a09f1298d9f8654335cd7f1d2a6d566a",
     "minVersionCode": 48,
-    "notes": "1.1.2 Beta（PDF 移除 / 原图保留）\n- 删除「PDF 输出」功能：设置页不再有 PDF 开关与 PDF 命名，下载链路与 Python 侧双重短路，永不生成 PDF\n- 「删除原图」永久关闭并从设置页移除：任何情况下都不再删除原图（原有 PDF/图片文件不受影响，仍可正常阅读）\n- 兼容老数据：以前勾过 PDF/删除原图的用户，升级后这两个值会被自动拉回 false\n- 其余内容与 1.1.1 Beta 相同"
+    "notes": "1.1.3 Beta（悬浮按钮放大）\n- 右下角两个方形悬浮按钮 48×48dp → 64×64dp，图标 24dp → 30dp\n- 圆角 14dp → 20dp，两键间距 10dp → 12dp，距屏幕边缘 16dp → 18dp\n- 主页状态行右侧避让同步加宽，长文字不会从按钮下面穿过\n- 其余内容与 1.1.2 Beta 相同"
   }
 }
