@@ -1,8 +1,8 @@
 {
-  "versionCode": 67,
-  "versionName": "1.2.4",
-  "url": "https://github.com/jiazhoujibadawang/paben-releases/releases/download/v1.2.4/JAFetcher-1.2.4.apk",
-  "sha256": "58d3c6628c3ef3b97cc34bda2bff4731b05fd179633a9eebcae8914c7c185071",
-  "notes": "JAFetcher 1.2.4\n- 新增「含触手内容」提示：标题右侧小黄圆 i + 浏览量下方黄色提示条\n- 三类黄色提示关键词扩充：\n  · 扶他：futanari / futa / 扶他 / 双性 / hermaphrodite / herm / dickgirl / newhalf / ふたなり\n  · 兽人：furry / kemono / anthro / anthropomorphic / 兽人 / 兽化 / 扶瑞 / 毛茸茸 / ケモノ\n  · 触手：tentacle(s) / 触手 / テンタル\n- 搜索列表与详情页同时生效\n- 其余与 1.2.3 相同\n\n提示：不想装这一版可点「跳过此版本」。",
+  "versionCode": 68,
+  "versionName": "1.2.5",
+  "url": "https://github.com/jiazhoujibadawang/paben-releases/releases/download/v1.2.5/JAFetcher-1.2.5.apk",
+  "sha256": "ecb6e622b25d239a40f4ee2fb901553a4a99008c8453d66284d5138f1bc9d497",
+  "notes": "JAFetcher 1.2.5\n- 修复「共 5 万多结果却只能翻两页」：游标（next=）解析失败时不再直接判定\"到底了\"，改为按结果总数兜底\n- 翻页游标正则增强：兼容单/双引号、`&amp;` 转义、href 形式\n- 真到最后一页时站点返回 0 条，会自动停止，不会无限翻\n- 其余与 1.2.4 相同\n\n提示：不想装这一版可点「跳过此版本」。",
   "force": false
 }
