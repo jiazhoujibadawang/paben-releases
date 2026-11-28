@@ -1,8 +1,8 @@
 {
-  "versionCode": 66,
-  "versionName": "1.2.3",
-  "url": "https://github.com/jiazhoujibadawang/paben-releases/releases/download/v1.2.3/JAFetcher-1.2.3.apk",
-  "sha256": "10bfd2b5829d4f0d6b93e0183513d250d066765033612fbd8e2dabd1c134702d",
-  "notes": "JAFetcher 1.2.3\n- 兽人（福瑞）识别新增关键词「毛茸茸」：命中时同样显示标题右侧小黄圆 i 与浏览量下方的黄色提示条\n- 识别词现为：furry / kemono / 兽人 / 兽化 / 福瑞 / 毛茸茸\n- 其余与 1.2.2 相同\n\n提示：不想装这一版可点「跳过此版本」。",
+  "versionCode": 67,
+  "versionName": "1.2.4",
+  "url": "https://github.com/jiazhoujibadawang/paben-releases/releases/download/v1.2.4/JAFetcher-1.2.4.apk",
+  "sha256": "58d3c6628c3ef3b97cc34bda2bff4731b05fd179633a9eebcae8914c7c185071",
+  "notes": "JAFetcher 1.2.4\n- 新增「含触手内容」提示：标题右侧小黄圆 i + 浏览量下方黄色提示条\n- 三类黄色提示关键词扩充：\n  · 扶他：futanari / futa / 扶他 / 双性 / hermaphrodite / herm / dickgirl / newhalf / ふたなり\n  · 兽人：furry / kemono / anthro / anthropomorphic / 兽人 / 兽化 / 扶瑞 / 毛茸茸 / ケモノ\n  · 触手：tentacle(s) / 触手 / テンタル\n- 搜索列表与详情页同时生效\n- 其余与 1.2.3 相同\n\n提示：不想装这一版可点「跳过此版本」。",
   "force": false
 }
